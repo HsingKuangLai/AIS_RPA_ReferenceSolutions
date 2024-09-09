@@ -1,0 +1,16 @@
+Invoice No. 833940 Strada Lunga 189
+Date: 2017-08-24 Brasov, Romania
+Vender: Softload Export
+Client Name
+ACME Systems Inc.
+Somewhere Road 58,
+Bucharest, Romania
+Notes
+Invoices must be paid within 20 days starting with the issue date.
+Item Description Quantity Price Per Total |
+| Various paper supplies | 1 | 186860 CAD | 186860 CAD |
+| | | | |
+| | | | |
+Subtotal: 185717 CAD
+Tax: 31143.4 CAD
+| Total: 186860 CAD |

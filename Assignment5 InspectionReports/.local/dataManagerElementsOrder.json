@@ -1,0 +1,39 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ApiKey&Sequence_1",
+        "FileName&Sequence_1",
+        "EndIndex&Sequence_1",
+        "StartIndex&Sequence_1",
+        "EndText&Sequence_1",
+        "StartText&Sequence_1",
+        "Dt_PCAOB&Sequence_1",
+        "GeminiPrompt&Sequence_1",
+        "ExtractText&Sequence_1",
+        "PdfText&Sequence_1",
+        "List_AuditAreas&Sequence_1",
+        "dt_AuditAreas&Sequence_1",
+        "GeminiOutput&Sequence_1",
+        "dt_All&Sequence_1",
+        "ReportUrl&Sequence_5",
+        "CurrentYear&Sequence_1",
+        "TableWordings&Sequence_1",
+        "ChatResponse&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

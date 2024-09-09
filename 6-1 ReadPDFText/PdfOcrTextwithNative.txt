@@ -1,0 +1,12 @@
+Invoice No. 833940 Strada Lunga 189
+Date: 2017-08-24 Brasov, Romania
+Vendor: Softload Export
+Client Name
+ACME Systems Inc.
+Somewhere Road 59,
+Bucharest, Romania
+Notes
+Various paper supplies _— 186860 CAD
+ey |
+Subtotal: 155717 CAD
+Tax: 31143.4 CAD
