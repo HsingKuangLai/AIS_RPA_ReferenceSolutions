@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryScreenData ContentHash="IXtkKQ187keK69ix_84E-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryScreenData.Data>
-    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHHSURBVDhPpZLZK8RRFMf9E9YHDx4oT+SV8ubJg5ShkC0iS5YHS1KS0FhLliwPKNuMZjJGthhjYoxlEDMRYiRGZAhh5uueq5HpThSnvv3u795zPr/vub/j4ZUqw3/0I8AzZZzL3ZlTbgF+6XJUDG1DZ7qG8eQWffNHCC2eEvJIAsAnTYb5nUs4HA44g9Zn1keEV8y45JIEQHyTFglM5cxB1bAR2V165PWsw2p7gfbgWmhJAGR1riEwV4mQoilE1y4iiK2v7p64k3e7HQHZCpd8ATBr/LRPKurfQPngNi+moD0Cfs8XADVjuzzZ9vQKX3aZ7Wozf6cwWe5/b4EsHl7a8PD8Cv/MCURWzuKG9f/2boekcZkBXPMFACk4fxKjK6cY0pwgsWUFhf0GxDZohGKSWwCJrHqzJ82Eu0KnPMhm66SJSyJdhlSxD282CxntqyjoM/D9pFYd2lQm5HTrUdBrQFiJGqUDWxzMHUSwAamT76FZeQD56hmS23QY0Z5CvXmB7plDZHWs8b8TU7+EqOoFfj/U2hcgtFjFB0e1YeEHA4vH6Jg2o4sVU1Icc6bQnyOffb1RuY+ywS30zh3Bk1r43s9f9E+ADB8UWYTstkfWzgAAAABJRU5ErkJggg==" Selector="&lt;html app='msedge.exe' title='臺灣期貨交易所-交易資訊-每日外幣參考匯率查詢' /&gt;" Title="臺灣期貨交易所-交易資訊-每日外幣參考匯率查詢" Url="https://www.taifex.com.tw/cht/3/dailyFXRate">
-      <imageRef attrName="InformativeScreenshot" originalValue="1de9fe9d65505c2cf3fd538f17a5ac65.jpg" xmlns="">0l3p3R7-OjEqYIiDS5uvCJQ</imageRef>
-    </TargetApp>
-  </ObjectRepositoryScreenData.Data>
-</ObjectRepositoryScreenData>
