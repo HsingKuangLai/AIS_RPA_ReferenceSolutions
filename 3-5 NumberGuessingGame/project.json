@@ -1,8 +1,8 @@
 {
-  "name": "3-4 AccountNumberClassification",
-  "projectId": "87d2f58f-6d6c-4c21-9a14-56643ebe367a",
+  "name": "3-5 NumberGuessingGame",
+  "projectId": "e3453c0e-67f4-4f08-b016-d71be05dca76",
   "description": "Blank Process",
-  "main": "Array.xaml",
+  "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
@@ -48,8 +48,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Array.xaml",
-      "uniqueId": "a5638f85-19e4-402a-a8aa-c9f55b974549",
+      "filePath": "Main.xaml",
+      "uniqueId": "1d297489-5511-4b1f-8b41-17a5393ffb66",
       "input": [],
       "output": []
     }

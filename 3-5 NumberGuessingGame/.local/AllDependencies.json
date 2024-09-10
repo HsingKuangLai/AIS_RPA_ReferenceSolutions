@@ -7569,11 +7569,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "P05_P06_Account Number Classification",
-      "projectName": "P05_P06_Account Number Classification",
-      "projectPath": "C:\\Users\\bear-pc\\Documents\\UiPath\\P05_P06_Account Number Classification\\.local",
+      "projectUniqueName": "P07_Number Guessing Game",
+      "projectName": "P07_Number Guessing Game",
+      "projectPath": "C:\\Users\\bear-pc\\Documents\\UiPath\\P07_Number Guessing Game - IsNumeric\\.local",
       "packagesPath": "C:\\Users\\bear-pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bear-pc\\Documents\\UiPath\\P05_P06_Account Number Classification\\.local"
+      "outputPath": "C:\\Users\\bear-pc\\Documents\\UiPath\\P07_Number Guessing Game - IsNumeric\\.local"
     },
     "frameworks": {
       "net461": {
