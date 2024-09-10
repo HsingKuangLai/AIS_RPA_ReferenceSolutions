@@ -1,6 +1,6 @@
 {
-  "name": "4-6 Dynamic Selectors_Classic",
-  "projectId": "d8a435af-1a65-4a62-95ed-ae4477c1b34a",
+  "name": "5-1 EvaluatingCustomerValue",
+  "projectId": "9dc74392-e78f-4673-a677-c3458030160d",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -43,14 +43,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false,
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "c363f1bc-3cfb-4012-8129-ac723e08f8e5",
+      "uniqueId": "171ab63c-e0e5-4d5f-918a-2845b80cf493",
       "input": [],
       "output": []
     }
