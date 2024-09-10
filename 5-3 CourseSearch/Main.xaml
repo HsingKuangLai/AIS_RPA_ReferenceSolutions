@@ -1,0 +1,271 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="732.8,1175.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Activities.Business.Filter</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="512,1110.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="DT_CourseSearch" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: 台大課程網課程查詢" sap:VirtualizedContainerService.HintSize="449.6,969.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="abb3782d-f317-4b9c-9faa-29dc0615100b" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,721.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '系所課程'" sap:VirtualizedContainerService.HintSize="353.6,156.8" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="abb3782d-f317-4b9c-9faa-29dc0615100b" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://nol.ntu.edu.tw/nol/coursesearch/index.php?lang=CH" DesignTimeRectangle="19, 472, 63, 66" ElementType="Icon" FullSelectorArgument="&lt;webctrl aaname='系所課程' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='系所課程' tag='IMG' type='' /&gt;" Guid="6824aac1-e8c0-4972-ad5d-842e1dcac10c" ImageBase64="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" InformativeScreenshot="c897bfb7bffa7177e92d195848f7addc.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='台大課程網課程查詢' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="82, 490, 85, 22" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;p&amp;gt;font&amp;gt;b&amp;gt;font' isleaf='1' tableRow='4' tag='FONT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' aaname='系所課程' tag='FONT' check:text='系所課程' /&gt;" Guid="ead0de0c-3fd3-4e26-81cb-513e83a3cb9e" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NSelectItem DisplayName="Select Item '開課系所：'" sap:VirtualizedContainerService.HintSize="353.6,156.8" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="7020 會計學系" ScopeIdentifier="abb3782d-f317-4b9c-9faa-29dc0615100b" Version="V1">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="50">
+                  <x:String>6237 營養科學組</x:String>
+                  <x:String>6238 微生物學組</x:String>
+                  <x:String>6250 森林環境暨資源學研究所</x:String>
+                  <x:String>6260 動物科學技術學研究所</x:String>
+                  <x:String>6270 農業經濟學研究所</x:String>
+                  <x:String>6280 園藝暨景觀學研究所</x:String>
+                  <x:String>6281 園藝作物組</x:String>
+                  <x:String>6282 園產品處理及利用組</x:String>
+                  <x:String>6283 景觀暨休憩組</x:String>
+                  <x:String>6290 獸醫學研究所</x:String>
+                  <x:String>6300 生物產業傳播暨發展學研究所</x:String>
+                  <x:String>6310 生物機電工程學研究所</x:String>
+                  <x:String>6320 昆蟲學研究所</x:String>
+                  <x:String>6330 植物病理與微生物學研究所</x:String>
+                  <x:String>6410 食品科技研究所</x:String>
+                  <x:String>6420 生物科技研究所</x:String>
+                  <x:String>6430 臨床動物醫學研究所</x:String>
+                  <x:String>6440 分子暨比較病理生物學研究所</x:String>
+                  <x:String>6450 植物醫學碩士學位學程</x:String>
+                  <x:String>7000 管理學院</x:String>
+                  <x:String>7010 工商管理學系</x:String>
+                  <x:String>7011 企業管理組</x:String>
+                  <x:String>7012 科技管理組</x:String>
+                  <x:String>7013 工商管理系企業管理組英文專班</x:String>
+                  <x:String>7020 會計學系</x:String>
+                  <x:String>7030 財務金融學系</x:String>
+                  <x:String>7040 國際企業學系</x:String>
+                  <x:String>7050 資訊管理學系</x:String>
+                  <x:String>7060 企業管理學系</x:String>
+                  <x:String>7220 會計學研究所</x:String>
+                  <x:String>7230 財務金融學研究所</x:String>
+                  <x:String>7240 國際企業學研究所</x:String>
+                  <x:String>7250 資訊管理學研究所</x:String>
+                  <x:String>7400 高階管理碩士專班(EMBA)</x:String>
+                  <x:String>7410 商學研究所</x:String>
+                  <x:String>7420 管院知識管理組</x:String>
+                  <x:String>7430 管理學院高階公共管理組</x:String>
+                  <x:String>7440 管理學院會計與管理決策組</x:String>
+                  <x:String>7450 管理學院財務金融組</x:String>
+                  <x:String>7460 管理學院國際企業管理組</x:String>
+                  <x:String>7470 管理學院資訊管理組</x:String>
+                  <x:String>7480 管理學院商學組</x:String>
+                  <x:String>7490 管理學院企業管理碩士專班(GMBA)</x:String>
+                  <x:String>7500 臺大-復旦EMBA</x:String>
+                  <x:String>7510 創業創新管理碩士在職專班</x:String>
+                  <x:String>8000 公共衛生學院</x:String>
+                  <x:String>8010 公共衛生學系</x:String>
+                  <x:String>8410 職業醫學與工業衛生研究所</x:String>
+                  <x:String>8420 流行病學研究所</x:String>
+                  <x:String>8430 醫療機構管理研究所</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="https://nol.ntu.edu.tw/nol/coursesearch/search_for_02_dpt.php" DesignTimeRectangle="179, 411, 404, 23" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='dptname' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dptname' tag='SELECT' type='' aaname='' /&gt;" Guid="a406a89d-16d4-49e8-9ab7-335386574502" InformativeScreenshot="7ffb288d9259e1cf269d0e04cd8fe54c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='系所課程查詢' /&gt;" SearchSteps="FuzzySelector">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="29, 411, 150, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;font&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' aaname='                                 開課系所：                                ' check:text='開課系所：' /&gt;" Guid="2d25912c-a689-4d72-a317-e1db03bef7a8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAbCAYAAACEE5ZqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAI9SURBVHhe7ZjLjcIwFEXTBh1AA3SSDT2wZcuODR2wTQtpgiJoYIoYj+349/zjhRDDSHekI40dxza8o+uE7vfnJgBYi9PpJNQfRAOro2SDaGB1IBpYHRydoAkQDTQBooEmQDQWF3HddqLrKIdBXhv2SX/X7cWYmWfsO7E7X0g7vXdCzx3cW+YoDoX1qph9h/ux2H3x9/AciMZCiUaL+ThvnGi0WOnY0rWx34jrPf3fzW3GFdGy8CUjYvdH16/Wc/1vFswC0VgsTLR7L3bxGFnol0Wza2pZ+IkWrhHCFnsBEI3FuxKNMvfodMlj02hJomkm8SDa17Aw0SS0yFOBXz86VYrJeYLjz+1x24sHGeuJE822l4imP1dlTQtEY8FPqXmJNlc0I1gWKlGOmmi5OXMvCjEQ7a14eWrH3fSF50WL71Mi1eZiJYxO00Ae1SYpR6mJ5teTMjPEmQtEYxHLE7Zr1/jEEtRwgiZSmcQriJKKDdG+DCNP9nmMchjyotEiqwLXjkFJpti1BJww6xaSrSQz7YdoH6SWWrVrnrCYScGtwC8UmP8gn99X2g/RPkhUDPW7mEuMJaKpsVIwOZfuG6bf2+ri+HtU24tm+osvBQWByGdRzBNNpyxjPERjQeWhiRSLFbcnkqPzTB/kqYhp8fz9VKQ00YxwcfFlaqZvkbm9QrQP4guivti0sP5a6QjMJ1r+Ogv3vMi7b+xT+dUcaXri6AT/GIgGmgDRQBMgGmgCRAPNULJBNNAEiAYacBN/8TdemrRcyv8AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[DT_CourseSearch]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='false' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-0' ReferenceIdx='0' Name='Column-0' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-1' ReferenceIdx='1' Name='Column-1' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-2' ReferenceIdx='2' Name='課號'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-3' ReferenceIdx='3' Name='班次'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-4' ReferenceIdx='4' Name='課程名稱'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-4 Url' ReferenceIdx='5' Name='課程Url'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-5' ReferenceIdx='6' Name='Column-5' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-6' ReferenceIdx='7' Name='學分'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-7' ReferenceIdx='8' Name='Column-7' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-8' ReferenceIdx='9' Name='Column-8' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-9' ReferenceIdx='10' Name='Column-9' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-10' ReferenceIdx='11' Name='授課教師'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-10 Url' ReferenceIdx='12' Name='Column-10 Url' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-11' ReferenceIdx='13' Name='Column-11' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-12' ReferenceIdx='14' Name='時間教室'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-12 Src' ReferenceIdx='15' Name='Column-12 Src' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-12 Url' ReferenceIdx='16' Name='Column-12 Url' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-13' ReferenceIdx='17' Name='Column-13' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-14' ReferenceIdx='18' Name='Column-14' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-14 Src' ReferenceIdx='19' Name='Column-14 Src' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-15' ReferenceIdx='20' Name='Column-15' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-15 Src' ReferenceIdx='21' Name='Column-15 Src' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-15 Url' ReferenceIdx='22' Name='Column-15 Url' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-16' ReferenceIdx='23' Name='Column-16' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-16 Src' ReferenceIdx='24' Name='Column-16 Src' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-16 Alt Text' ReferenceIdx='25' Name='Column-16 Alt Text' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-16 Url' ReferenceIdx='26' Name='Column-16 Url' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column-17' ReferenceIdx='27' Name='Column-17' IsDeleted='true'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Column-0' attr='fulltext' /&gt;&lt;column name='Column-1' attr='fulltext' /&gt;&lt;column name='Column-2' attr='fulltext' /&gt;&lt;column name='Column-3' attr='fulltext' /&gt;&lt;column name='Column-4' attr='fulltext' name2='Column-4 Url' attr2='href' /&gt;&lt;column name='Column-5' attr='fulltext' /&gt;&lt;column name='Column-6' attr='fulltext' /&gt;&lt;column name='Column-7' attr='fulltext' /&gt;&lt;column name='Column-8' attr='fulltext' /&gt;&lt;column name='Column-9' attr='fulltext' /&gt;&lt;column name='Column-10' attr='fulltext' name2='Column-10 Url' attr2='href' /&gt;&lt;column name='Column-11' attr='fulltext' /&gt;&lt;column name='Column-12' attr='fulltext' name2='Column-12 Src' attr2='src' name3='Column-12 Url' attr3='href' /&gt;&lt;column name='Column-13' attr='fulltext' /&gt;&lt;column name='Column-14' attr='fulltext' name2='Column-14 Src' attr2='src' /&gt;&lt;column name='Column-15' attr='fulltext' name2='Column-15 Src' attr2='src' name3='Column-15 Url' attr3='href' /&gt;&lt;column name='Column-16' attr='fulltext' name2='Column-16 Src' attr2='src' name3='Column-16 Alt Text' attr3='alt' name4='Column-16 Url' attr4='href' /&gt;&lt;column name='Column-17' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="353.6,156.8" sap2010:WorkflowViewState.IdRef="NExtractData_3" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="abb3782d-f317-4b9c-9faa-29dc0615100b" Version="V1">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable BrowserURL="https://nol.ntu.edu.tw/nol/coursesearch/search_for_02_dpt.php?alltime=yes&amp;allproced=yes&amp;selcode=-1&amp;dptname=7020&amp;coursename=&amp;teachername=&amp;current_sem=112-2&amp;yearcode=0&amp;op=&amp;startrec=0&amp;week1=&amp;week2=&amp;week3=&amp;week4=&amp;week5=&amp;week6=&amp;proced0=&amp;proced1=&amp;proced2=&amp;proced3=&amp;proced4=&amp;procedE=&amp;proced5=&amp;proced6=&amp;proced7=&amp;proced8=&amp;proced9=&amp;procedA=&amp;procedB=&amp;procedC=&amp;procedD=&amp;allsel=yes&amp;selCode1=&amp;selCode2=&amp;selCode3=&amp;page_cnt=15" CVScreenId="76dfd64a-fdc5-42b3-8872-6954895a63a9" CvTextArea="1753, 993, 72, 16" CvTextArgument="F-E&gt;&gt;" CvType="Text" DesignTimeRectangle="1755, 993, 70, 16" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;font&amp;gt;table' idx='5' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='下一頁&amp;gt;&amp;gt;' check:innerText='下一頁&amp;gt;&amp;gt;' /&gt;" Guid="057984e6-941c-4627-b412-d37a26c2f9d8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAUCAYAAAAuoXvLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEoSURBVFhH7ZfNDYMwDIU7LSNwiBiBE+oeZALusEdZww1J+CmYxBATRWo+yWppi2I/P7vtCzIoZVnqxyzQCVkgD1kgDweBxlZAURSXQrSjvZuDHhrkDHcIkB97OzNEB6mkKwmcMlzmI0G8e3sRj3QFGhrEKcfgde+RpAXyFo98Rq8Ib64jyIomLl0g3bFGPYtEiIOmcXS9b1n37fkOu+ggK5RrF2ySIwfW8ZsO2kMRYXYUlsu9EdPdfe6bQxPiIBTiWOkGr7UF7CDsNUaYHDRhXORrqHURi4NiECoQ0x5KWqDtKJ3FvvilYGe+687xNSFdgRbU2aqQZrCXkUlYoLnL+58WRjBK9zlIUiDaUt2M04N/QX4E6rrOHJhDR13XVAf9L1kgD0YggC//ztIhGPj3BwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='系所課程查詢' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V4" Visibility="Interactive" />
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable BrowserURL="https://nol.ntu.edu.tw/nol/coursesearch/search_for_02_dpt.php?alltime=yes&amp;allproced=yes&amp;selcode=-1&amp;dptname=7020&amp;coursename=&amp;teachername=&amp;current_sem=112-2&amp;yearcode=0&amp;op=&amp;startrec=0&amp;week1=&amp;week2=&amp;week3=&amp;week4=&amp;week5=&amp;week6=&amp;proced0=&amp;proced1=&amp;proced2=&amp;proced3=&amp;proced4=&amp;procedE=&amp;proced5=&amp;proced6=&amp;proced7=&amp;proced8=&amp;proced9=&amp;procedA=&amp;procedB=&amp;procedC=&amp;procedD=&amp;allsel=yes&amp;selCode1=&amp;selCode2=&amp;selCode3=&amp;page_cnt=15" DesignTimeRectangle="17, 764, 1885, 1055" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;font&amp;gt;table' idx='4' tableRow='1' tag='TABLE' /&gt;" Guid="55f4a9d8-61be-42bc-b157-86a7eb6a6de6" InformativeScreenshot="542611d839de921305620440cd7aefed.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='系所課程查詢' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:FilterDataTable DataTable="[DT_CourseSearch]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="353.6,160.8" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[DT_CourseSearch]" SelectColumnsMode="Keep">
+              <ui:FilterDataTable.Filters>
+                <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                  <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                    <ui:FilterOperationArgument.Column>
+                      <InArgument x:TypeArguments="x:String">["課號"]</InArgument>
+                    </ui:FilterOperationArgument.Column>
+                    <ui:FilterOperationArgument.Operand>
+                      <InArgument x:TypeArguments="x:String">["課號"]</InArgument>
+                    </ui:FilterOperationArgument.Operand>
+                  </ui:FilterOperationArgument>
+                </scg:List>
+              </ui:FilterDataTable.Filters>
+              <ui:FilterDataTable.SelectColumns>
+                <scg:List x:TypeArguments="InArgument" Capacity="4">
+                  <x:Null />
+                </scg:List>
+              </ui:FilterDataTable.SelectColumns>
+            </ui:FilterDataTable>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANkSURBVDhPZZPfT1pnGMdJlmV/Ry+2m6XNmq1xSxqTls3dbTdzJkubrkuTpmnSpt3ablBTR1GQo0zlSAvOqTjWTeXA4YCnDhWlCuWHcASqYoFpa2lFKwLFUOD43ZF0zdwunuSbvN/n877v80MEYF/knyfeDtrlBNtZFxq5ebhoUbxXZFTiyBxzoyObXnr3v/7XYpcvvxEabVYyxLFS3GuEsY/Ew+UYdnd3YTMb4RvTwErUVfwWqaZSLr61D7CX7DJ8Q00bL2E7s1lNmnJYEZxxYOPREvr1ndjcSIPnywgwTXDcbhjnX0GqAI5VNfvMEiQTCXhcDtg1raDbZdjJhJFLe6rapLyBWDQAhqYxP6aA3yIhq4DC9qMDTFttUXgWioUtkGe+xpWaGiHZj+2UBU+XSLx8EcH3R4+CaPgCqdUYKpUSKMVxPpteOCgKsSo5pfsWZGcHolMWPFm0g/MMYNx0EXPsKTyYPItJqwwu61Usz6oQsBmq3jvay/CbpaToz+7P3M+fxZB8GEFqyY6/fFfAGuph7qlHD1EPuv8sKEG7WAVKhTlsrrqxGPYiu5UC3Xp8UWRu/vBxLpdFdn0FKxyL8g4HI/kVPGNKSK9dhVqlwnDvefSpG/Ay7xUAM1iN+JDL5WBpOcyLGOKjx7lsFtsCQHf+DJI+KX7TnUPYeQldLadh+r0LHvok7vxyHZk1CwauXUCS8yCfz8N0831exHZ+7pl1WrESj6JR/Ak8I1rcbv0Sz2Kk0H8dbLQBpRd+6NtOIMT24vIHNaCHBzBk7IW9vXZRxN1VNUect5BMJmAiZEgEKPR0y8CXYpgeN4IZbgcqcfTqCKxFrRiUfoeN9DrCrn54qeuk0MaVA+aW2qJeq8FC2I/wxBC0XXKUizFsrTmEwhqrgC61DMG7RsQXgsJ5B5g2MZ9dXzj0apAUigD9A7hgEH/8+jOC4yMYE25s+rQOjR+LMdqtxKzVgKHBnqrHTTXi/ojk1utJ3BtlZ99pmtKcwKzLiXkuhHuTdqSW5/EkFoJ7isWMaxruGRes+nOY0NdP/LMPVcBe8JXSm6FROUG3iku2AQkeCJXeKRSQyWwhyt2HffBHjP5UV/FSEu3/lunfkduMvzNna1ILmxeilUfylPxI3qY+FvWZpRrhzwf3+yH6G+fH/VVF7M25AAAAAElFTkSuQmCC" InformativeScreenshot="cb27eec661a2773b5093e6374b243884.png" Selector="&lt;html app='msedge.exe' title='台大課程網課程查詢'/&gt;" Title="台大課程網課程查詢" Url="https://nol.ntu.edu.tw/nol/coursesearch/index.php?lang=CH" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="449.6,52" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+      <ueab:ExcelProcessScopeX.Body>
+        <ActivityAction x:TypeArguments="ui:IExcelProcess">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="592,190.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="353.6,80.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="CourseSearch.xlsx">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,416" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:WriteRangeX Destination="[Excel.Sheet(&quot;Sheet1&quot;)]" DisplayName="Write DataTable to Excel" sap:VirtualizedContainerService.HintSize="433.6,159.2" sap2010:WorkflowViewState.IdRef="WriteRangeX_1" IgnoreEmptySource="False" Source="[DT_CourseSearch]" />
+                    <ueab:AutoFitX Columns="True" DisplayName="Autofit Range" sap:VirtualizedContainerService.HintSize="433.6,115.2" sap2010:WorkflowViewState.IdRef="AutoFitX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" Rows="True" />
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelProcessScopeX.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ueab:ExcelProcessScopeX>
+  </Sequence>
+</Activity>
