@@ -1,0 +1,7 @@
+Hi {0},
+
+	This is to inform you that your term grade is {1}.
+	Find attached the grade distribution of the class.
+	{2}
+
+TA
