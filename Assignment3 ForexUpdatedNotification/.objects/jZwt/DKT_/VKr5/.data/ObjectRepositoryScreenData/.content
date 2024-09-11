@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="GbwP4E5S-0yKvqyiLsa6Eg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFHSURBVDhPpdExS0JhFAbgk0NEgzQ43PkO/YD7CxqEmi4N4dJ2/0CTIA4iDXdyaQkjkmhpaQiRuxW5OLm4yKVCRAj8EcLpPd93pM+va0sHHri+7ytqkX87Rzc1eIVcI8lyzWoaFdzxXQBvwOpdG+lyJ5dNoI1e/FCBT2DHQFvp+14n24q2uLPHAbCnoa30Da8T+gHnT1XgAod2gJPn4k2VKOkn8Ozp6Ft/TrLfu0Tb/9zFSxkOHHvaSLdrrE+6zW2ZqD5cATsuzbg+DGCp7L9Nus3tiqg5mgE7QjNujlpO1tIsdDIxI2qPu8AqM8P2uAQLJ5fnknaZk3eJ0kkErGIzSienTuZ3sZNFJqPOtAcLsJ/SmWbAHvvtZGO3PfPa3NXHPpzocwi8hf37yFbeU3jX8xR4i1RXf9ztVwT3MAdW8iyZ/ub1EX0DLvdGSF7CCXQAAAAASUVORK5CYII=" Selector="&lt;html app='msedge.exe' title='元大商業銀行' /&gt;" Title="元大商業銀行" Url="https://www.yuantabank.com.tw/bank/exchangeRate/hostccy.do">
+      <imageRef attrName="InformativeScreenshot" originalValue="79f18c735b30537bf4e7978e9db58b3d.jpg" xmlns="">0Z3R4lGH_E0yb8ck2QhYQFA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
