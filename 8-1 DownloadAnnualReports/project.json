@@ -1,14 +1,15 @@
 {
-  "name": "7-3 EmailFunctionIntegration",
-  "projectId": "b63c7d88-a674-4051-b253-239558307cc6",
+  "name": "8-1 DownloadAnnualReports",
+  "projectId": "651224d7-cd27-4207-84e6-22127026a233",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.20.1]",
-    "UiPath.Mail.Activities": "[1.20.2]",
+    "UiPath.Mail.Activities": "[1.18.2]",
     "UiPath.System.Activities": "[23.4.2]",
     "UiPath.Testing.Activities": "[23.4.0]",
-    "UiPath.UIAutomation.Activities": "[23.4.4]"
+    "UiPath.UIAutomation.Activities": "[23.4.4]",
+    "UiPath.WebAPI.Activities": "[1.16.2]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -50,7 +51,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "5fec8f82-95d5-4156-89a6-26a07bf53ca5",
+      "uniqueId": "c9050c47-0d68-4b03-acf1-0036a79fd07b",
       "input": [],
       "output": []
     }

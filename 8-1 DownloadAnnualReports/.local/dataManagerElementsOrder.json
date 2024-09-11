@@ -12,11 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "dt_Invocie&Sequence_3",
-        "InvoiceNumber&Sequence_9",
-        "InvoiceDate&Sequence_9",
-        "ClientCode&Sequence_9",
-        "InvoiceTotal&Sequence_9"
+        "StatusCode&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
