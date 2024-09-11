@@ -1,0 +1,32 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "StartDate&Sequence_2",
+        "EndDate&Sequence_2",
+        "Screenshot&Sequence_2",
+        "result&Sequence_4",
+        "RowIndex&Sequence_4",
+        "result&Sequence_10",
+        "RowIndex&Sequence_10",
+        "result&Sequence_17",
+        "RowIndex&Sequence_17",
+        "result&Sequence_23",
+        "RowIndex&Sequence_23"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
