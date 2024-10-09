@@ -6,7 +6,7 @@
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
-    "UiPath.System.Activities": "[21.10.5]",
+    "UiPath.System.Activities": "[23.10.1]",
     "UiPath.UIAutomation.Activities": "[21.10.6]"
   },
   "webServices": [],
